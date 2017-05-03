@@ -67,6 +67,31 @@ aside {
 	padding: 30px;
 }
 
+input {
+	width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 25%;
+}
 footer {
 	clear: both;
 	text-align: center;
@@ -81,7 +106,8 @@ footer {
 }
 /* logo*/
 h1 {
-	font-family: 'Georgia', Times, Times New Roman, serif;font-size: 1.75em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.75em;
 	font-weight: bolder;
 	text-align: center;
 	letter-spacing: .75px;
@@ -92,12 +118,12 @@ h1 {
 }
 
 h2 {
-	font-size: 1.50em;
+	font-size: 1.75em;
 	font-weight: bolder;
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 1.25em;
 	font-weight: bold;
 }
 
@@ -135,6 +161,7 @@ p {
 	margin-left: auto;
 	height: 100%;
 	overflow: hidden;
+	position: relative;
 
 }
 	
@@ -156,8 +183,28 @@ p {
 .gutter_right {
 	margin-right: 15px;
 }
+/* section 650px-(2px=60px)=588/2=294
+294-15=279*/
+.gallery_box {
+	width: 279px;
+	margin-top: 30px;
+	overflow: hidden;
+	position: relative;
+	
+}
 
+.gallery_label {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	letter-spacing: .75px;
+	color: #fff;
+	background-color: #4aaaa5;
+	padding: 20px;
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
 
+}
 
 
 
