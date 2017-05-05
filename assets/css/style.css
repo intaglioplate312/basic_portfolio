@@ -67,12 +67,15 @@ main {
 
 section {
 	background-color: #fff;
-	border: 1px solid #dddddd;
 	width: 650px;
-	padding: 30px;
+
 }
 
 article  {
+	border: 1px solid #dddddd;
+	padding: 30px;
+	width: 100%;
+	overflow: hidden;
 }
 		
 aside {
