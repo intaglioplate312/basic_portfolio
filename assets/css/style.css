@@ -64,7 +64,7 @@ aside {
 	background-color: #fff;
 	border: 1px solid #ddd;
 	width: 270px;
-	padding: 30px;
+	padding: 30px 30px;
 }
 
 input {
@@ -74,10 +74,12 @@ input {
 input[type=text] {
     width: 100%;
     padding: 12px 10px;
-    margin: 8px 0;
+	margin: 5px 0px 15px 0px;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    font-size: .85em;
+    color: #919191;
 }
 
 
@@ -91,6 +93,14 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
     font-size: 1em;
     width: 25%;
+}
+textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 12px 10px;
+	margin: 5px 0px 15px 0px;
+	color: #919191;
+	font-size: .85em;
 }
 footer {
 	clear: both;
@@ -116,20 +126,21 @@ h1 {
 	padding: 30px;
 
 }
-
+/*heading*/
 h2 {
 	font-size: 1.75em;
 	font-weight: bolder;
+	line-height: 150%;
 }
-
+/*side bar header*/
 h3 {
 	font-size: 1.25em;
 	font-weight: bold;
+	line-height: 75%;
 }
-
+/*gallery labels, contact labels*/
 h4 {
-	font-size: .75em;
-	font-weight: bold;
+	font-size: 1.1em;
 }
 
 h5 {
@@ -189,8 +200,7 @@ p {
 	width: 279px;
 	margin-top: 30px;
 	overflow: hidden;
-	position: relative;
-	
+	position: relative;	
 }
 
 .gallery_label {
@@ -203,7 +213,6 @@ p {
 	position: absolute;
 	bottom: 15px;
 	width: 100%;
-
 }
 
 
